@@ -1,0 +1,328 @@
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+@font-face {
+	font-family: "Akrobat";
+	src: local("AkrobatBlack"),
+		url("../fonts/AkrobatBlack.woff") format("woff"),
+		url("../fonts/AkrobatBlack.woff2") format("woff2");
+	font-style: normal;
+	font-size: 900;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Akrobat";
+	src: local("AkrobatBold"),
+		url("../fonts/AkrobatBold.woff") format("woff"),
+		url("../fonts/AkrobatBold.woff2") format("woff2");
+	font-style: normal;
+	font-size: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Akrobat";
+	src: local("AkrobatExtraBold"),
+		url("../fonts/AkrobatExtraBold.woff") format("woff"),
+		url("../fonts/AkrobatExtraBold.woff2") format("woff2");
+	font-style: normal;
+	font-size: 800;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Akrobat";
+	src: local("AkrobatRegular"),
+		url("../fonts/AkrobatRegular.woff") format("woff"),
+		url("../fonts/AkrobatRegular.woff2") format("woff2");
+	font-style: normal;
+	font-size: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Akrobat";
+	src: local("AkrobatSemiBold"),
+		url("../fonts/AkrobatSemiBold.woff") format("woff"),
+		url("../fonts/AkrobatSemiBold.woff2") format("woff2");
+	font-style: normal;
+	font-size: 600;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: local("MontserratMedium"),
+		url("../fonts/MontserratMedium.woff") format("woff"),
+		url("../fonts/MontserratMedium.woff2") format("woff2");
+	font-style: normal;
+	font-size: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "ProximaNova";
+	src: local("ProximaNovaRegular"),
+		url("../fonts/ProximaNovaRegular.woff") format("woff"),
+		url("../fonts/ProximaNovaRegular.woff2") format("woff2");
+	font-style: normal;
+	font-size: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "ZonaPro";
+	src: local("ZonaProExtraBold"),
+		url("../fonts/ZonaProExtraBold.woff") format("woff"),
+		url("../fonts/ZonaProExtraBold.woff2") format("woff2");
+	font-style: normal;
+	font-size: 500;
+	font-display: swap;
+}
+
+body {
+	min-width: 320px;
+	font-family: 'Akrobat', "ZonaPro", "ProximaNova", "Montserrat", sans-serif;
+}
+
+.container1920 {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.container1550 {
+	max-width: 1550px;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+.red-btn {
+	position: relative;
+	padding: 26px 49px 41px 49px;
+	background-color: #CE0002;
+	border: none;
+	color: #FFF;
+	font-family: 'Akrobat';
+	font-size: 22px;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.red-btn:hover .arrow {
+	fill: red;
+}
+
+.arrow {
+	fill: #FFF;
+	position: absolute;
+	top: 68px;
+	left: 49px;
+}
+
+.header {
+	background-color: #FAFAFA;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+}
+
+.header__logo-link {
+	margin-left: 84px;
+}
+
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header__list {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.header__link {
+	margin-right: 45px;
+	color: #000;
+	font-family: "Akrobat";
+	font-size: 20px;
+	line-height: normal;
+	font-weight: 600;
+}
+
+.header__link--choose {
+	color: #F00;
+}
+
+.header__btn {
+	margin-left: 50px;
+	padding: 46px;
+	background-color: #CE0002;
+	border: none;
+	color: #FFF;
+	font-family: 'Akrobat';
+	font-size: 20px;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.games {
+	padding-top: 78px;
+	padding-bottom: 182px;
+	background-color: #FAFAFA;
+}
+
+.game-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 143px;
+}
+
+.game__block--column {
+	flex-direction: column-reverse;
+	align-items: flex-start;
+}
+
+.game-block__content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	max-width: 606px;
+}
+
+.game-block__title {
+	margin: 0;
+	margin-bottom: 22px;
+	max-width: 447px;
+	color: #000;
+	font-family: 'ZonaPro';
+	font-size: 72px;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.game-block__dscr {
+	margin: 0;
+	margin-bottom: 22px;
+	color: #000;
+	font-family: 'Akrobat';
+	font-size: 24px;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.red-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 192px;
+	max-height: 192px;
+	padding: 47px 30px 47px 20px;
+	background-color: #CE0002;
+}
+
+.red-box__text {
+	margin: 0;
+	max-width: 79px;
+	color: #FFF;
+	font-family: 'Akrobat';
+	font-size: 22px;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.game-block__img--mb {
+	margin-bottom: 24px;
+}
+
+.slider {
+	overflow: hidden;
+}
+
+.game-block__slide {
+	max-width: 29.95%;
+	margin-right: 100px;
+}
+
+.slider-prev,
+.slider-next {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70px;
+	height: 70px;
+	background-color: #CE0002;
+}
+
+.slider-icon-prev {
+	transform: rotate(180deg);
+}
+
+.project__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 45px;
+}
+
+.project__btns {
+	display: flex;
+	align-items: center;
+}
+
+.slider-prev {
+	margin-right: 80px;
+}
+
+.project__title {
+	color: #000;
+	font-family: 'Montserrat';
+	font-size: 72px;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 18px 25px 18px 25px;
+	background-color: #EFEFEF;
+}
+
+.footer__link {
+	margin: 0;
+	color: #7E7E7E;
+	font-family: 'Akrobat';
+	font-size: 16px;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.footer__link:not(:last-child) {
+	margin-right: 40px;
+}
+
+.block {
+	display: none;
+}

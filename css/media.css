@@ -1,0 +1,203 @@
+@media(max-width: 1550px) {
+
+	.container1920 {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.header__logo-link {
+		margin-left: 0;
+	}
+
+	.header__container {
+		padding-right: 0;
+	}
+
+}
+
+@media(max-width: 1400px) {
+
+	.swiper-slide {
+		max-width: 49%;
+	}
+
+	.game-block__img {
+		max-width: 500px;
+		height: auto;
+	}
+
+	.game-block__dscr {
+		max-width: 80%;
+	}
+
+}
+
+@media(max-width: 1200px) {
+
+	.container1550 {
+		padding: 0 45px;
+	}
+
+.game-block__title {
+	font-size: 64px;
+}
+
+.game-block {
+	gap: 30px;
+}
+
+.game-block__img {
+	max-width: 50%;
+}
+
+.game-block__content {
+	max-width: 50%;
+}
+
+.game-block__content--slider {
+	max-width: 100%;
+}
+
+.game-block__img--mb {
+	max-width: 100%;
+}
+
+.game-block__slide {
+	max-width: 54.3%;
+	margin-right: 44px;
+}
+}
+
+@media(max-width: 1050px) {
+.header__link {
+	display: none;
+}
+
+.header__btn {
+	margin: 0;
+}
+}
+
+@media(max-width: 900px) {
+	.game-block {
+		flex-direction: column;
+	}
+
+	.game-block--reverse {
+		flex-direction: column-reverse;
+	}
+
+  .game-block__img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.game-block__content {
+		max-width: 100%;
+	}
+
+	.game__block--column {
+		flex-direction: column-reverse;
+	}
+}
+
+@media(max-width: 768px) {
+	.footer {
+		flex-direction: row-reverse;
+	}
+
+	.footer__list {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.footer__link {
+		margin: 0;
+	}
+
+	.footer__text {
+		margin: 0;
+		align-self: flex-start;
+	}
+
+	.none {
+		display: none;
+	}
+
+	.btns-block {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 131px;
+	}
+
+	.block {
+		display: flex;
+	}
+
+	.game-block__slide {
+		max-width: 82%;
+		margin-right: 20px;
+		height: auto;
+	}
+
+	.game__block--column {
+		margin: 0;
+	}
+
+	.slider {
+		margin-bottom: 68px;
+	}
+
+	.game-block__title {
+		font-size: 38px;
+	}
+
+	.game-block__dscr {
+		font-size: 20px;
+	}
+
+	.project__title {
+		font-size: 47px;
+	}
+
+	.container1550 {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+
+}
+
+@media(max-width: 375px) {
+	.header__btn {
+		padding: 38px 35px;
+	}
+
+	.project__title {
+		font-size: 32px;
+	}
+
+	.footer__link:not(:last-child) {
+		margin: 0;
+	}
+
+	.game-block__dscr {
+		max-width: 100%;
+	}
+
+	.red-btn {
+		padding-top: 26px;
+		padding-bottom: 40px;
+	}
+
+	.game-block {
+		margin-bottom: 60px;
+	}
+
+	.game__block--column {
+		margin: 0;
+		gap: 0;
+	}
+}
